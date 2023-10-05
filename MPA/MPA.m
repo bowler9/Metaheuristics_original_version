@@ -130,7 +130,7 @@ while Iter<Max_iter
         
     fit_old=fitness;    Prey_old=Prey;
 
-     %---------- Eddy formation and FADsï¿½ effect (Eq 16) ----------- 
+     %---------- Eddy formation and FADs’ effect (Eq 16) ----------- 
                              
   if rand()<FADs
      U=rand(SearchAgents_no,dim)<FADs;                                                                                              
